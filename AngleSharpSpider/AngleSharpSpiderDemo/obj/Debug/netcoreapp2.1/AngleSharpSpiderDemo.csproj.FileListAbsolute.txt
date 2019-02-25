@@ -27,3 +27,4 @@ D:\Code\Naylor\GitHub\AngleSharpSpider\AngleSharpSpider\AngleSharpSpiderDemo\obj
 D:\Code\Naylor\GitHub\AngleSharpSpider\AngleSharpSpider\AngleSharpSpiderDemo\obj\Debug\netcoreapp2.1\AngleSharpSpiderDemo.dll
 D:\Code\Naylor\GitHub\AngleSharpSpider\AngleSharpSpider\AngleSharpSpiderDemo\obj\Debug\netcoreapp2.1\AngleSharpSpiderDemo.pdb
 D:\Code\Naylor\GitHub\AngleSharpSpider\AngleSharpSpider\AngleSharpSpiderDemo\obj\Debug\netcoreapp2.1\AngleSharpSpiderDemo.csproj.CopyComplete
+D:\Code\Naylor\GitHub\AngleSharpSpider\AngleSharpSpider\AngleSharpSpiderDemo\obj\Debug\netcoreapp2.1\AngleSharpSpiderDemo.csprojAssemblyReference.cache

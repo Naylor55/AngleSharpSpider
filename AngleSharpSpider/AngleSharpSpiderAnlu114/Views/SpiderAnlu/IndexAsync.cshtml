@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "IndexAsync";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<Anlu114Model> ;
+
+<h2>AngleSharp爬取安陆信息网招聘信息</h2>
+@if (Model != null && Model.Count > 0)
+{
+    foreach (Anlu114Model item in Model)
+    {
+        <div>
+            @*<span> @item.type </span>*@
+            @foreach (var dic in item.item)
+            {
+                <p>
+                    <a href="@dic.Key">
+                        @dic.Value
+                    </a>
+                </p>
+            }
+        </div>
+    }
+
+}
+
