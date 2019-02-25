@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "IndexAsync";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Dictionary<string, string>;
+<h2>爬取博客园首页文章名称和链接</h2>
+
+@foreach (var item in Model)
+{
+    string title = item.Key;
+    string href = item.Value;
+    <a href="@href">@title</a>
+    <br />
+}
+
