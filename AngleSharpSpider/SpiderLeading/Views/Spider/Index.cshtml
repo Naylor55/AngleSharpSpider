@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Spider-Index</h2>
+<input type="text" placeholder="输入单个sku编号，当前仅支持单个爬取" class="inp_sku" value="" style="width:500px" />
+<br />
+<br />
+<br />
+<input type="button" value="爬取" onclick="SpiderSku()" />
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script>
+    $(function () {
+
+    })
+
+    function SpiderSku(obj) {
+        var skuid = $(".inp_sku").val().trim();
+        if (skuid) {
+            window.location.href = "/Spider/skuphotoasync?skuIds=" + skuid;
+        } else {
+            alert("先输入sku编号");
+        }
+    }
+
+</script>

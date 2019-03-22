@@ -12284,11 +12284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Naylor\\GitHub\\AngleSharpSpider\\AngleSharpSpider\\AngleSharpSpiderDemo\\AngleSharpSpiderDemo.csproj",
+      "projectUniqueName": "E:\\GithubCode\\AngleSharpSpider\\AngleSharpSpider\\AngleSharpSpiderDemo\\AngleSharpSpiderDemo.csproj",
       "projectName": "AngleSharpSpiderDemo",
-      "projectPath": "D:\\Code\\Naylor\\GitHub\\AngleSharpSpider\\AngleSharpSpider\\AngleSharpSpiderDemo\\AngleSharpSpiderDemo.csproj",
+      "projectPath": "E:\\GithubCode\\AngleSharpSpider\\AngleSharpSpider\\AngleSharpSpiderDemo\\AngleSharpSpiderDemo.csproj",
       "packagesPath": "C:\\Users\\Cnayl\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Naylor\\GitHub\\AngleSharpSpider\\AngleSharpSpider\\AngleSharpSpiderDemo\\obj\\",
+      "outputPath": "E:\\GithubCode\\AngleSharpSpider\\AngleSharpSpider\\AngleSharpSpiderDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

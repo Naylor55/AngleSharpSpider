@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "SkuPhotoAsync";
+}
+@model List<SpiderLeading.Models.SkuPhotoInfo>;
+
+
+<h2>SkuPhotoAsync</h2>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div class="panel-group" id="accordion">
+        @foreach (SpiderLeading.Models.SkuPhotoInfo item in Model)
+        {
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="" data-parent=""
+                           href="#">
+                            @item.skuId
+                        </a>
+                        <a href="@item.skuUrl" target="_blank">电商网站链接</a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <p>@item.photoTitle</p>
+                        <p>
+                            <span>高：</span> <b>@item.photoHeight</b>
+                            <span>宽：</span> <b>@item.photoWidth</b>
+                        </p>
+                        <div>
+                            <img src="@item.photoUrl" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+
+}
+else
+{
+    <p>=_=*     爬取失败。</p>
+}
+
