@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AngleSharp;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using SpiderLeading.Models;
 
 namespace SpiderLeading.Controllers
 {
@@ -18,7 +19,30 @@ namespace SpiderLeading.Controllers
 
         public async Task<IActionResult> SkuPhotoAsync(string skuIds)
         {
-            List<Models.SkuPhotoInfo> model = await getSkuPhotoInfoAsync(skuIds);
+            List<Models.SkuPhotoInfo> model = new List<Models.SkuPhotoInfo>();
+            if (!string.IsNullOrEmpty(skuIds))
+            {
+                string[] skuArray = skuIds.Split(',');
+                if (skuArray != null && skuArray.Length > 0)
+                {
+                    foreach (string item in skuArray)
+                    {
+                        List<Models.SkuPhotoInfo> data = await getSkuPhotoInfoAsync(item);
+                        foreach (SkuPhotoInfo skuPhotoInfo in data)
+                        {
+                            model.Add(skuPhotoInfo);
+                        }
+                    }
+                }
+                else
+                {
+                    ViewBag.ErrorMsg = "输入有问题。必须是以英文逗号分隔的sku编号";
+                }
+            }
+            else
+            {
+                ViewBag.ErrorMsg = "输入不可为空";
+            }
             return View(model);
         }
 

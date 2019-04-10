@@ -42,6 +42,14 @@
 }
 else
 {
-    <p>=_=*     爬取失败。</p>
+    if (ViewBag.ErrorMsg != null)
+    {
+        <p>=_=*  @ViewBag.ErrorMsg</p>
+    }
+    else
+    {
+
+        <p>=_=*     爬取失败。</p>
+    }
 }
 

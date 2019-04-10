@@ -31,3 +31,4 @@ E:\GithubCode\AngleSharpSpider\AngleSharpSpider\SpiderLeading\obj\Release\netcor
 E:\GithubCode\AngleSharpSpider\AngleSharpSpider\SpiderLeading\obj\Release\netcoreapp2.1\SpiderLeading.dll
 E:\GithubCode\AngleSharpSpider\AngleSharpSpider\SpiderLeading\obj\Release\netcoreapp2.1\SpiderLeading.pdb
 E:\GithubCode\AngleSharpSpider\AngleSharpSpider\SpiderLeading\obj\Release\netcoreapp2.1\SpiderLeading.csproj.CopyComplete
+E:\GithubCode\AngleSharpSpider\AngleSharpSpider\SpiderLeading\obj\Release\netcoreapp2.1\SpiderLeading.csprojAssemblyReference.cache
