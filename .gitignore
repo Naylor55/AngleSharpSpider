@@ -1,0 +1,7 @@
+/bin/
+/packages/
+/obj/
+*.mp4
+/.vs/
+.vs/WpfApp1/v17/.suo
+/SetupOutput/
