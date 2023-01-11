@@ -5,6 +5,6 @@
 /.vs/
 .vs/WpfApp1/v17/.suo
 /SetupOutput/
-~/bin/
-*/packages/
-~/obj/
+**/bin/
+**/packages/
+**/obj/
