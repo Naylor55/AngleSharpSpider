@@ -4,6 +4,7 @@
 
 
 ## 集福助手
+>  CollectionHappiness
 
 ### 背景
 
