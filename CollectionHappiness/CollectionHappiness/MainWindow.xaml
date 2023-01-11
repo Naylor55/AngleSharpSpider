@@ -1,0 +1,28 @@
+﻿<Window x:Class="CollectionHappiness.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollectionHappiness"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Border  Grid.Column="0">
+                    <Image  Height="300" Margin="20" Name="img" ></Image>
+                </Border>
+
+                <Button Grid.Column="1" Width="100" Height="80" Name="btn_next" Content="下一张" Click="btn_next_Click"></Button>
+            </Grid>
+            <Border>
+                <TextBlock Text="使用说明：使用AngleSharp爬取视觉中国网站得福字；点击下一张重新获取一个福字。有bug 欢迎交流" ></TextBlock>
+
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>
